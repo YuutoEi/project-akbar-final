@@ -1,0 +1,95 @@
+
+.welcome{
+    height: 479px;
+}
+.footer{
+    height: 3rem;
+}
+.header{
+    background-color: white;
+    font-family: "inter", sans-serif;
+    font-style: normal;
+    margin: 0px;
+    display: flex;
+    margin-bottom: -20px;
+    padding: 10px;
+    box-shadow: 0px 2px 5px gray;
+
+    
+}
+#logo-website{
+    height: 10rem;
+    width: auto;
+}
+.navbar{
+    margin-left: auto;
+    margin: 3.5rem 2rem auto auto;
+    
+}
+
+nav a{
+    text-decoration: none;
+    margin-left: 1rem;
+
+}
+#support{
+    background-color: lightgreen;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+
+body{
+    background-color: #D0D0D0;
+    margin: 0;
+    min-width: 509px;
+}
+
+.isi-welcome {
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* tambahkan properti height untuk mengatur tinggi elemen */
+}
+.konten-teratas{
+    margin: auto auto 2rem auto;
+}
+
+.card-konten img{
+    height: 15rem;
+    width: 23rem;
+}
+.card-konten li{
+    width: 23rem;
+    list-style: none;
+    padding: 10px;
+    background-color: white;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+}
+.card-konten{
+    display: flex;
+    margin: 10px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.card-konten a{
+    text-decoration: none;
+    color: black;
+    text-decoration: none;
+
+}
+.footer{
+    background-color: white;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0px 3px gray inset;
+    
+}
+#footer{
+    opacity: 50%;
+}
+  

@@ -1,0 +1,116 @@
+*{
+    font-family: "SUSE", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+
+}
+
+.header{
+    background-color: white;
+    font-family: "inter", sans-serif;
+    font-style: normal;
+    margin: 0px;
+    display: flex;
+    margin-bottom: -20px;
+    padding: 10px;
+
+    
+}
+#logo-website{
+    height: 10rem;
+    width: auto;
+}
+
+nav a{
+    text-decoration: none;
+    margin-left: 1rem;
+
+}
+#support{
+    background-color: lightgreen;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.navbar{
+    margin-left: auto;
+    margin: 3.5rem 2rem auto auto;
+    
+}
+.isi img{
+    height: 10rem;  
+    margin: 20px;
+    margin-top: auto;
+    margin-bottom: auto;  
+}
+.isi{
+    display: flex;
+    margin: 0 0 5rem 0;
+}
+.tulisan{
+    background-color: white;
+    border-radius: 0px 20px 20px 0px;
+}
+body{
+    background-color: #d0d0d0;
+    margin: 0;
+    padding: 0;
+    min-width: 545px;
+}
+.tulisan{
+    padding: 10px;
+}
+.tulisan{
+    width: 100%;
+}
+.konten-list{
+    margin: 1rem;
+}
+.tulisan a {
+    border-bottom: 1px solid gray;
+    padding: 1rem;
+    background-image: linear-gradient(
+      to right,
+      lightgreen,
+      lightgreen 50%,
+      #000 50%
+    );
+    background-size: 200% 100%;
+    background-position: -100%;
+    display: inline-block;
+    padding: 5px 0;
+    position: relative;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.3s ease-in-out;
+}
+  
+.tulisan a:before{
+    content: '';
+    background: lightgreen;
+    display: block;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 3px;
+    transition: all 0.3s ease-in-out;
+}
+  
+.tulisan a:hover {
+    background-position: 0;
+}
+  
+.tulisan a:hover::before{
+    width: 100%;
+}
+.footer{
+    background-color: white;
+    padding: 1rem;
+    text-align: center;
+    
+}
+#footer{
+    opacity: 30%;
+}
+  
