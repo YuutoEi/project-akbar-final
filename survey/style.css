@@ -3,9 +3,37 @@
     font-size: 100%;
 }
 
-header h1{
-    text-align: center;
-    margin: 40px 0 0 0;
+.header{
+    background-color: white;
+    font-family: "inter", sans-serif;
+    font-style: normal;
+    margin: 0px;
+    display: flex;
+    margin-bottom: -20px;
+    padding: 10px;
+    box-shadow: 0px 2px 5px gray;
+
+    
+}
+#logo-website{
+    height: 10rem;
+    width: auto;
+}
+.navbar{
+    margin-left: auto;
+    margin: 3.5rem 2rem auto auto;
+    
+}
+
+nav a{
+    text-decoration: none;
+    margin-left: 1rem;
+
+}
+#support{
+    background-color: lightgreen;
+    padding: 5px;
+    border-radius: 20px;
 }
 .isi{
     width: 80%;
