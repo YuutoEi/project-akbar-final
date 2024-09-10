@@ -1,0 +1,112 @@
+*{
+    font-family: "SUSE", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+
+}
+.header{
+    background-color: white;
+    font-family: "inter", sans-serif;
+    font-style: normal;
+    margin: 0px;
+    display: flex;
+    margin-bottom: -20px;
+    padding: 10px;
+
+    
+}
+#logo-website{
+    height: 10rem;
+    width: auto;
+}
+
+nav a{
+    text-decoration: none;
+    margin-left: 1rem;
+
+}
+#support{
+    background-color: lightgreen;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.navbar{
+    margin-left: auto;
+    margin: 3.5rem 2rem auto auto;
+    
+}  
+body{
+    background-color: white;
+    margin: 0;
+    min-width: 558px;
+}
+.pembukaan img{
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+      
+}
+.pembukaan h1{
+    text-align: center;
+    font-weight: 900 ;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+}
+.pembukaan{
+    background-color: #d0d0d0;
+}
+.pembukaan p{
+    width: auto;
+    text-align: center;
+    margin: 0;
+    padding: 3rem 5rem 3rem 5rem;
+    background-color: aliceblue;
+}
+h2{
+    font-size: 2rem;
+    margin: 0;
+    text-align: center; 
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 2rem;
+    background-color: white;
+}
+.partisipasi{
+    background-color: white;
+    margin: 0;
+}
+.partisipasi img{
+    height: 10rem;
+}
+.card{
+    width: 25rem;
+    margin: 20px;
+    text-align: center;
+    padding: 0.2rem;
+
+}
+.card img{
+    background-color: black;
+    padding: 15px;
+    border-radius: 10px;
+}
+.video{
+    display: flex;
+    flex-wrap: wrap;
+}
+.tulisan-yt{
+    margin: auto 2rem auto 3rem;
+}
+.footer{
+    background-color: white;
+    padding: 1rem;
+    text-align: center;
+    
+}
+#footer{
+    opacity: 30%;
+}
