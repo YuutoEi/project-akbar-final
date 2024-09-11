@@ -38,7 +38,8 @@ nav a{
     
 }
 .isi img{
-    height: 10rem;  
+    height: 10rem;
+    min-width: 15rem;  
     margin: 20px;
     margin-top: auto;
     margin-bottom: auto;  

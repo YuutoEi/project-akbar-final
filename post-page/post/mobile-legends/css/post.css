@@ -42,7 +42,7 @@ body{
     min-width: 558px;
 }
 .pembukaan img{
-    width: 50%;
+    width: 30%;
     display: block;
     margin: 0 auto;
       
@@ -68,31 +68,58 @@ h2{
     margin: 0;
     text-align: center; 
 }
-.container{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding: 2rem;
+.cara-bermain{
     background-color: white;
-}
-.partisipasi{
-    background-color: white;
-    margin: 0;
-}
-.partisipasi img{
-    height: 10rem;
-}
-.card{
-    width: 25rem;
-    margin: 20px;
-    text-align: center;
-    padding: 0.2rem;
+    padding: 1rem;
 
 }
-.card img{
+.cara-bermain h2{
+    text-decoration: underline;
+    margin-bottom: 5rem;
+}
+.container-cara{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    margin: 1.5rem;
+}
+.tulisan-cara{
+    width: 45%;
+    margin: 1rem auto;
+}
+.gambar-peta{
+    width: 371px;
+    margin: 1rem auto;
+    text-align: end;
+}
+.gambar-peta img{
+    height: 50%
+}
+.container-kontroversi{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    margin: 1.5rem;
+}
+.kontroversi{
+    background-color: white;
+    padding: 1rem;
+}
+.kontroversi h2{text-decoration: underline;margin-bottom: 5rem;}
+
+.gambar-kontroversi{
+    width: 371px;
+    margin: 1rem auto;
+    text-align: end;
+}
+.gambar-kontroversi img{
+    width: 371px;
     background-color: black;
-    padding: 15px;
     border-radius: 10px;
+}
+.tulisan-kontroversi{
+    width: 45%;
+    margin: 1rem auto;
 }
 .video{
     display: flex;
@@ -109,4 +136,59 @@ h2{
 }
 #footer{
     opacity: 30%;
+}
+.role{
+    background-color: white;
+}
+.tulisan-role{
+    text-align: center;
+}
+.role1{
+    background-color: #d0d0d0;
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+.role2{
+    background-color: white;
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+.role3{
+    background-color: #d0d0d0;
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+.role4{
+    background-color: white;
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+.role5{
+    background-color: #d0d0d0;
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gambar-role img{
+    height: 20rem;
+    margin: 1rem auto;
+}
+.gambar-role{
+    width: 50%;
+    text-align: end;
+}
+.role .tulisan{
+    width: 50%;
+    margin: auto auto;
+    text-align: start;
+}
+#akhiran-role{
+    margin: 1rem auto;
+    text-align: center;
+    padding: 5rem;
 }
