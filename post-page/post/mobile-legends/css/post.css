@@ -193,3 +193,18 @@ h2{
     text-align: center;
     padding: 5rem;
 }
+.header{
+    box-shadow:2px 2px 5px gray ;
+}
+.pembukaan p{
+    box-shadow: 2px 2px 5px gray;
+}
+.cara-bermain{
+    box-shadow: 2px 2px 5px gray;
+}
+.container-role{
+    box-shadow: 2px 2px 5px gray;
+}
+.footer{
+    box-shadow: 2px 2px 5px gray;
+}

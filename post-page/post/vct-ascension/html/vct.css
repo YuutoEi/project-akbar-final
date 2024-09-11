@@ -12,6 +12,7 @@
     display: flex;
     margin-bottom: -20px;
     padding: 10px;
+    box-shadow: 2px 2px 5px gray;
 
     
 }
@@ -55,6 +56,9 @@ body{
 }
 .pembukaan{
     background-color: #d0d0d0;
+}
+.pembukaan p{
+    box-shadow: 2px 2px 5px gray;
 }
 .pembukaan p{
     width: auto;
@@ -105,8 +109,15 @@ h2{
     background-color: white;
     padding: 1rem;
     text-align: center;
+    box-shadow: 2px 2px 5px gray;
     
 }
 #footer{
     opacity: 30%;
+}
+.partisipasi{
+    box-shadow: 2px 2px 5px gray;
+}
+.card img{
+    box-shadow: 2px 2px 5px gray;
 }
