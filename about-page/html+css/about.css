@@ -1,0 +1,77 @@
+*{
+    font-family: "SUSE", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.footer{
+    height: 3rem;
+}
+body{
+    margin: 0;
+    min-width: 502px;
+}
+.footer{
+    background-color: white;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0px 3px 5px gray inset;
+    
+}
+#footer{
+    opacity: 50%;
+}
+
+.header{
+    background-color: white;
+    font-family: "inter", sans-serif;
+    font-style: normal;
+    margin: 0px;
+    display: flex;
+    margin-bottom: -20px;
+    padding: 10px;
+    box-shadow: 0px 2px 5px gray;
+}
+#logo-website{
+    height: 10rem;
+    width: auto;
+}
+.navbar{
+    margin-left: auto;
+    margin: 3.5rem 2rem auto auto;
+    
+}
+
+nav a{
+    text-decoration: none;
+    margin-left: 1rem;
+
+}
+#support{
+    background-color: lightgreen;
+    padding: 5px;
+    border-radius: 20px;
+}
+.about{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.awalan{
+    width: 45rem;
+    margin: 4rem auto;
+}
+.kelompok{
+    display: flex;
+    flex-wrap: wrap;
+    width: 40rem;
+    margin: 1rem auto;
+    gap: 20px;
+    text-align: center;
+}
+.card img{
+    height: 200px;
+    border-radius: 20px;
+}
+.card{
+    margin: 1rem auto;
+}
