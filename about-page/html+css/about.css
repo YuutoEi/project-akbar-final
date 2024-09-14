@@ -14,7 +14,7 @@ body{
     background-color: white;
     padding: 1rem;
     text-align: center;
-    box-shadow: 0px 3px 5px gray inset;
+    box-shadow: 3px 3px 5px black;
     
 }
 #footer{
@@ -61,17 +61,15 @@ nav a{
     margin: 4rem auto;
 }
 .kelompok{
-    display: flex;
-    flex-wrap: wrap;
-    width: 40rem;
-    margin: 1rem auto;
-    gap: 20px;
     text-align: center;
+    margin: 1rem auto;
 }
+
 .card img{
     height: 200px;
     border-radius: 20px;
 }
 .card{
-    margin: 1rem auto;
+    margin: 0.2rem;
 }
+
