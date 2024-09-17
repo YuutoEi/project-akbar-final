@@ -1,0 +1,146 @@
+*{
+    font-family: "SUSE", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+
+}
+.header{
+    background-color: white;
+    font-family: "inter", sans-serif;
+    font-style: normal;
+    margin: 0px;
+    display: flex;
+    margin-bottom: -20px;
+    padding: 10px;
+
+    
+}
+#logo-website{
+    height: 10rem;
+    width: auto;
+}
+
+nav a{
+    text-decoration: none;
+    margin-left: 1rem;
+
+}
+#support{
+    background-color: lightgreen;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.navbar{
+    margin-left: auto;
+    margin: 3.5rem 2rem auto auto;
+    
+}  
+body{
+    background-color: white;
+    margin: 0;
+    min-width: 558px;
+}
+.pembukaan img{
+    width: 30%;
+    display: block;
+    margin: 0 auto;
+      
+}
+.pembukaan h1{
+    text-align: center;
+    font-weight: 900 ;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+}
+.pembukaan{
+    background-color: #d0d0d0;
+}
+.pembukaan p{
+    width: auto;
+    text-align: center;
+    margin: 0;
+    padding: 3rem 5rem 3rem 5rem;
+    background-color: aliceblue;
+}
+.os {
+    overflow-x: auto;
+    white-space: nowrap;
+}
+  
+.os .container-os {
+    display: flex;
+    flex-wrap: nowrap;
+}
+  
+.os .container-os img {
+    margin: 10px;
+}
+.cara-bermain{
+    overflow-x: auto;
+    white-space: nowrap;
+}
+.cara-bermain .container-cara{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.cara-bermain .container-cara iframe{
+    margin: 2rem;
+}
+h2{
+    font-size: 2rem;
+    margin: 0;
+    text-align: center; 
+}
+.levelup{
+    background-color: white;
+    padding: 1rem;
+}
+.container-levelup{
+    align-content: center;
+}
+.gambar-levelup{
+    text-align: center;
+}
+.tulisan-levelup{
+    width: 100%;
+    text-align: center;
+}
+.tulisan-levelup p{
+    margin: 1rem auto;
+    padding: 0 10rem 0 10rem
+}
+
+.video{
+    display: flex;
+    flex-wrap: wrap;
+}
+.yt{
+    margin: auto;
+}
+.tulisan-yt{
+    margin: auto auto auto auto;
+    width: 50%;
+}
+.footer{
+    background-color: white;
+    padding: 1rem;
+    text-align: center;
+    
+}
+#footer{
+    opacity: 30%;
+}
+
+.header{
+    box-shadow:2px 2px 5px gray ;
+}
+.pembukaan p{
+    box-shadow: 2px 2px 5px gray;
+}
+.cara-bermain{
+    box-shadow: 2px 2px 5px gray;
+}
+.footer{
+    box-shadow: 2px 2px 5px gray;
+}
