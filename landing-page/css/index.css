@@ -76,6 +76,7 @@ body{
     margin: 10px;
     justify-content: space-around;
     flex-wrap: wrap;
+    
 }
 .card-konten a{
     text-decoration: none;
@@ -102,6 +103,9 @@ body{
     position: relative;
     top: 50%;
     transform: translateY(-50%);
+}
+.card-konten li{
+    box-shadow: 3px 3px 6px gray;
 }
 
   
