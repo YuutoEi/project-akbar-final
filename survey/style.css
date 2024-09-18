@@ -15,6 +15,9 @@
 
     
 }
+body{
+    min-width: 526px;
+}
 #logo-website{
     height: 10rem;
     width: auto;
