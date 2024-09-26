@@ -117,5 +117,11 @@ body{
 .card-konten li{
     box-shadow: 3px 3px 6px gray;
 }
-
+#text1{
+    font-size: 500%;
+    margin: 1.1rem;
+}
+#text{
+    font-size: x-large;
+}
   
