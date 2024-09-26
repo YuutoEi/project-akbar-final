@@ -44,12 +44,22 @@ body{
 nav a{
     text-decoration: none;
     margin-left: 1rem;
+    color: black;
 
+}
+nav a:hover{
+    color: lightgreen;
+    text-decoration: underline;
 }
 #support{
     background-color: lightgreen;
     padding: 5px;
     border-radius: 20px;
+    color: white;
+}
+#support:hover{
+    color: black;
+    text-decoration: none;
 }
 .about{
     display: flex;
