@@ -1,110 +1,48 @@
-*{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 100%;
-}
-
-.header{
-    background-color: white;
-    font-family: "inter", sans-serif;
-    font-style: normal;
-    margin: 0px;
+.header h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    justify-content: center;
     display: flex;
-    margin-bottom: -20px;
-    padding: 10px;
-    box-shadow: 0px 2px 5px gray;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
 
+}
+.header{
+    display: flex;
+    background-color: black;
+    justify-content: center;
     
 }
-body{
-    min-width: 526px;
-}
-#logo-website{
-    height: 10rem;
-    width: auto;
-}
-.navbar{
-    margin-left: auto;
-    margin: 3.5rem 2rem auto auto;
-    
-}
+.header img{
+    display: flex;
+    width: 2rem;
+    height: 2rem;
 
-nav a{
-    text-decoration: none;
-    margin-left: 1rem;
+}
+.isi table tr{
+    padding: 2 2 2 2;
     color: black;
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+.isi table th{
+    color: white;
+    background-color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: small;
 
 }
-nav a:hover{
-    color: lightgreen;
-    text-decoration: underline;
-}
-#support{
-    background-color: lightgreen;
-    padding: 5px;
-    border-radius: 20px;
-    color: white;
-}
-#support:hover{
+.isi table{
     color: black;
+}
+.tambah button{
+    border-radius: 10px;
+    display: flex;
+    margin: 0;
+}
+.tambah button a{
     text-decoration: none;
-}
-.isi{
-    width: 80%;
-    margin: 5rem auto 0 auto;
-    text-align: center;
-    
-}
-
-form{
-    text-align: left;
-}
-#input-nama{
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
-    border: 1px solid #ccc;
-    -webkit-transition: 0.5s;
-    transition: 0.5s;
-    outline: none;
+    color: black
 
 }
-#input-nama:focus{
-    border: 1px solid black;
-}
-#menemukan{
-    border: 1px solid #ccc;
-    -webkit-transition: 0.5s;
-    transition: 0.5s;
-    outline: none;
-}
-#menemukan:focus{
-    border: 1px solid black;
-}
 
-
-
-#menemukan {
-    padding : 5px;
-}
-
-#submit{
-    padding : 10px;
-    background-color: rgb(0, 192, 192);
-    color: white;
-    border-radius: 5px;
-    border-style: none;
-}
-#submit:hover{
-    background-color: rgb(0, 128, 128);
-}
-#submit:focus{
-    background-color: rgb(0, 128, 128);
-    animation-name: submit;
-    animation-duration: 3s;
-
-}
-@keyframes submit{
-    form{background-color: rgb(0, 128, 128);}
-    to {background-color: lightgreen;}
-}
