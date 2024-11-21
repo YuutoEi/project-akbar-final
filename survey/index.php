@@ -3,24 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
     <title>CRUD App</title>
 </head>
 <body>
-    <h1>Add Activity</h1>
-    <br>
-    <div class="header">
-      <img id="logo-website" src="../landing-page/img/logo-removebg-preview.png" alt="logo-website">
-      <div class="navbar">
-          <nav>
-              <a href="../index.html">Home</a>
-              <a href="../post-page/post-judul.html">Post</a>
-              <a href="../about-page/html+css/about.html">About</a>
-              <a id="support" href="index.html">Support Us</a>
-          </nav>
-      </div>
+  <div class="header">
+    <img id="logo-website" src="../landing-page/img/logo-removebg-preview.png" alt="logo-website">
+    <div class="navbar">
+      <nav>
+        <a href="../index.html">Home</a>
+        <a href="../post-page/post-judul.html">Post</a>
+        <a href="../about-page/html+css/about.html">About</a>
+        <a id="support" href="index.html">Support Us</a>
+      </nav>
+    </div>
   </div>
-    <a href="showData.php">Show Data</a>
-    <br><br>
+  <br><br>
+  <a href="showData.php">Show Data</a>
     <h3>Add Activity</h3>
     <form method="post" action="tambah_.php">
         <div class="Nama">
