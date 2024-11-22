@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <title>CRUD App</title>
+    <title>Spark Support</title>
 </head>
 <body>
   <div class="header">
@@ -13,14 +13,13 @@
       <nav>
         <a href="../index.html">Home</a>
         <a href="../post-page/post-judul.html">Post</a>
-        <a href="../about-page/html+css/about.html">About</a>
-        <a id="support" href="index.html">Support Us</a>
+        <a href="index.php">About</a>
+        <a id="support" href="index.php">Support Us</a>
       </nav>
     </div>
   </div>
   <br><br>
-  <a href="showData.php">Show Data</a>
-    <h3>Add Activity</h3>
+  <a id="show-data" href="showData.php">Show Data</a><br><br>
     <form method="post" action="tambah_.php">
         <div class="Nama">
           <label for="input-nama">Nama Lengkap :</label><br>

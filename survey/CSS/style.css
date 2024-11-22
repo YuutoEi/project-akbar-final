@@ -44,6 +44,11 @@ nav a{
     text-align: center;
     
 }
+#show-data{
+    background-color: lightgreen;
+    padding: 5px;
+    border-radius: 20px;
+}
 
 form{
     text-align: left;

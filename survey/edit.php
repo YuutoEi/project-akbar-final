@@ -7,11 +7,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Edit CRUD App</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <h2>Edit Activity</h2><br>
-    <a href="index.php"><- Back</a>
+<div class="header">
+    <img id="logo-website" src="../landing-page/img/logo-removebg-preview.png" alt="logo-website">
+    <div class="navbar">
+      <nav>
+        <a href="../index.html">Home</a>
+        <a href="../post-page/post-judul.html">Post</a>
+        <a href="index.php">About</a>
+        <a id="support" href="index.php">Support Us</a>
+      </nav> 
+    </div>
+  </div>
+  <br><br>
+  <a href="index.php"><- Back</a>
 
             <?php
             include 'connection.php';

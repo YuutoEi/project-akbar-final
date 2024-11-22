@@ -15,8 +15,9 @@
 }
 .header img{
     display: flex;
-    width: 2rem;
-    height: 2rem;
+    width: 10rem;
+    height: 10rem;
+    padding-left: 40rem;
 
 }
 .isi table tr{
