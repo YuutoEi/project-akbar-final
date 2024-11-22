@@ -13,14 +13,15 @@
       <nav>
         <a href="../index.html">Home</a>
         <a href="../post-page/post-judul.html">Post</a>
-        <a href="index.php">About</a>
+        <a href="../about-page/html+css/about.html">About</a>
         <a id="support" href="index.php">Support Us</a>
       </nav>
     </div>
   </div>
   <br><br>
-  <a id="show-data" href="showData.php">Show Data</a><br><br>
-    <form method="post" action="tambah_.php">
+  <h1 id="bantu" >Bantu Kami Agar Manjadi Lebih Baik!!</h1>
+  <form method="post" action="tambah_.php">
+      <a id="show-data" href="showData.php">Show Data</a><br><br>
         <div class="Nama">
           <label for="input-nama">Nama Lengkap :</label><br>
           <input type="text" name="Nama" placeholder="nama..." id="input-nama" required /><br><br>

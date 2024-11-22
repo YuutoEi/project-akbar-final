@@ -15,6 +15,9 @@
 
     
 }
+form{
+    margin: 100px;
+}
 body{
     min-width: 526px;
 }
@@ -27,6 +30,10 @@ body{
     margin: 3.5rem 2rem auto auto;
     
 }
+nav a:hover{
+    color: lightgreen;
+    text-decoration: underline;
+}
 
 nav a{
     text-decoration: none;
@@ -37,6 +44,15 @@ nav a{
     background-color: lightgreen;
     padding: 5px;
     border-radius: 20px;
+    color: white;
+}
+#support:hover{
+    color: black;
+    text-decoration: none;
+}
+#bantu{
+    text-align: center;
+    margin-top: 50px;
 }
 .isi{
     width: 80%;
@@ -46,8 +62,16 @@ nav a{
 }
 #show-data{
     background-color: lightgreen;
-    padding: 5px;
+    padding: 8px;
     border-radius: 20px;
+    text-decoration: none;
+}
+#show-data:hover{
+    background-color: darkgreen;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    text-decoration: none;
 }
 
 form{

@@ -23,17 +23,17 @@
     </div>
   </div>
   <br><br>
-  <a href="index.php"><- Back</a>
-
-            <?php
+  
+  <?php
             include 'connection.php';
-
+            
             $id = $_GET['id'];
             $data = mysqli_query($koneksi, "select * from support where id='$id'");
             $d = mysqli_fetch_array($data);
             $DataMenemukan = explode(", ", $d['Menemukan1']);
             ?>
                 <form method="post" action="edit_.php">
+                    <a id="show-data" href="index.php"><- Back</a><br><br>
                     <input type="hidden" name="id" value="<?php echo $d['id']; ?>">
                     <div class="Nama">
                         <label for="input-nama">Nama Lengkap :</label><br>
